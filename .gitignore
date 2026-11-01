@@ -1,0 +1,51 @@
+# =====================================================================
+# PATIENT DATA PROTECTION
+# No patient-level data, exports or result tables may ever be committed.
+# =====================================================================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.sav
+*.dta
+*.sas7bdat
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.json
+*.db
+*.sqlite
+*.dcm
+*.nii
+*.nii.gz
+
+# Result folders (may contain per-patient predictions or Shapley values)
+lupsma_results/
+results/
+output/
+outputs/
+revision_results/
+
+# Everything inside data/ except its README
+data/*
+!data/README.md
+
+# =====================================================================
+# Python
+# =====================================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.spyproject/
+.DS_Store
+Thumbs.db
+desktop.ini
