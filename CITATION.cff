@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and this repository."
+title: "LUMEN-XAI: Explainable machine learning for early on-treatment risk assessment during [177Lu]Lu-PSMA-617 therapy"
+type: software
+authors:
+  - family-names: Klein
+    given-names: Christian R.
+    email: christian.klein@ukbonn.de
+    affiliation: "Clinic of Internal Medicine III, University Hospital Bonn, Germany"
+repository-code: "https://github.com/ChristianRKlein/LUMEN-XAI"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-01"
+keywords:
+  - mCRPC
+  - Lu-PSMA-617
+  - radioligand therapy
+  - Bellmunt Risk Score
+  - landmark analysis
+  - explainable AI
+  - Shapley values
+  - machine learning
+preferred-citation:
+  type: article
+  title: "Explainable machine learning identifies early on-treatment biomarkers that complement simplified risk stratification in mCRPC undergoing [177Lu]Lu-PSMA-617 therapy"
+  status: submitted
+  authors:
+    - family-names: Klein
+      given-names: Christian R.
+    - family-names: Büttner
+      given-names: Thomas
+    - family-names: Kuhlgatz
+      given-names: Vincent
+    - family-names: Theis
+      given-names: Maike
+    - family-names: Sprinkart
+      given-names: Alois Martin
+    - family-names: Ritter
+      given-names: Manuel
+    - family-names: Schmidt-Wolf
+      given-names: Ingo G.H.
+    - family-names: Essler
+      given-names: Barbara
+    - family-names: Gaertner
+      given-names: Florian C.
+    - family-names: Brossart
+      given-names: Peter
+    - family-names: Essler
+      given-names: Markus
+    - family-names: Marinova
+      given-names: Milka
+    - family-names: Krausewitz
+      given-names: Philipp
